@@ -1,0 +1,5 @@
+docker exec -it socialnetwork-user-mongodb-1 mongo
+> show dbs
+> use <database_name>
+> show collections
+> db.user.find().pretty()
