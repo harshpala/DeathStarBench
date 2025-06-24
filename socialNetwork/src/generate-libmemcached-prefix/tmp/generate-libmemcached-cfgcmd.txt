@@ -1,0 +1,1 @@
+cmd='/home/palaharsh/DeathStarBench/socialNetwork/downloads/libmemcached/configure;--prefix=;LDFLAGS=-L'

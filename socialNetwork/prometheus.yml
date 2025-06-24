@@ -1,0 +1,56 @@
+global:
+  scrape_interval: 5s
+  evaluation_interval: 5s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'nginx-thrift'
+    static_configs:
+      - targets: ['localhost:8080']
+
+  - job_name: 'user-service'
+    static_configs:
+      - targets: ['socialnetwork-user-service-1:8080']
+
+  - job_name: 'user-timeline-service'
+    static_configs:
+      - targets: ['socialnetwork-user-timeline-service-1:8080']
+
+  - job_name: 'compose-post-service'
+    static_configs:
+      - targets: ['socialnetwork-compose-post-service-1:8080']
+
+  - job_name: 'post-storage-service'
+    static_configs:
+      - targets: ['socialnetwork-post-storage-service-1:8080']
+
+  - job_name: 'text-service'
+    static_configs:
+      - targets: ['socialnetwork-text-service-1:8080']
+
+  - job_name: 'media-service'
+    static_configs:
+      - targets: ['socialnetwork-media-service-1:8080']
+
+  - job_name: 'url-shorten-service'
+    static_configs:
+      - targets: ['socialnetwork-url-shorten-service-1:8080']
+
+  - job_name: 'unique-id-service'
+    static_configs:
+      - targets: ['socialnetwork-unique-id-service-1:8080']
+
+  - job_name: 'home-timeline-service'
+    static_configs:
+      - targets: ['socialnetwork-home-timeline-service-1:8080']
+
+  - job_name: 'social-graph-service'
+    static_configs:
+      - targets: ['socialnetwork-social-graph-service-1:8080']
+
+  - job_name: 'user-mention-service'
+    static_configs:
+      - targets: ['socialnetwork-user-mention-service-1:8080']
