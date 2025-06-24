@@ -127,6 +127,16 @@ This process will help in:
 
 By leveraging Docker and Kubernetes, the project aims to simulate real-world deployment scenarios and evaluate system scalability, reliability, and performance.
 
+## Additional Documentation
+
+For more detailed information, please refer to the following documents:
+
+- **[Creativity](creativity.md)** - Creative approaches and innovative solutions implemented in the project
+- **[Deployment](deployment.md)** - Detailed deployment instructions and configurations
+- **[Microservices Architecture Breakdown](Microservices_Architecture_Breakdown.md)** - Comprehensive analysis of the microservices architecture
+- **[Social Network README](socialNetwork/README.md)** - Detailed documentation for the Social Network microservices
+- **[Helm Chart README](socialNetwork/helm-chart/README.md)** - Automate the process of deploying Social Network Microservices on a Kubernetes cluster natively using Helm chart
+
 ---
 
 
