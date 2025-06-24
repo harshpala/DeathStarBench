@@ -25,7 +25,7 @@ To overcome these challenges, I implemented **two key creative solutions** that 
 > This approach enabled me to **monitor, debug, and profile the architecture locally**, similar to what platforms like GCP or AWS offer in production, but directly on my laptop using a local k8s cluster.
 
 #### 📸 Pixie UI Example:
-*(Add screenshots here if available from the Pixie UI)*
+![alt text](screenshots/pixie.png)
 
 ---
 
