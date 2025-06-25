@@ -31,7 +31,7 @@ Ensure you have the following installed:
 
 ## 1. Clone the Repository
 ```bash
-git clone --recurse-submodules https://github.com/your-repo/DeathStarBench.git
+git clone --recurse-submodules https://github.com/harshpala/DeathStarBench.git
 cd DeathStarBench/socialNetwork
 ```
 
